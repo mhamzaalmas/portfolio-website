@@ -46,3 +46,14 @@ ScrollReveal({
  });
 
  ScrollReveal().reveal('.home-content, .heading', { origin:'top' });
+ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin:'bottom' });
+
+
+//  type js
+const typed = new Typed('.multi-text',{
+    Strings: ['Frontend Developer', 'Youtuber', 'Web Developer',]
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
